@@ -1,0 +1,249 @@
+.pics{
+  position: relative;
+  left: 250px;
+}
+
+#china{
+  border-radius: 130px;
+  position: relative;
+  top: 100px;
+}
+#china:hover{
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+#china{
+  animation: spining 30s forwards 0s 1
+}
+
+@keyframes spining {
+  0%,75% {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#batteries{
+  border-radius: 130px;
+  position: relative;
+  top: 100px;
+}
+#batteries:hover{
+  opacity: 0.75;
+  cursor: pointer;
+}
+#batteries{
+  animation: slidein 2s ease-in 0s 1;
+}
+
+@keyframes slidein {
+  0% {height: 100px;}
+  100% {height:200px;}
+}
+
+#iceskate{
+  border-radius: 130px;
+  position: relative;
+  top: 100px;
+}
+#iceskate:hover{
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+#iceskate{
+  animation: spinin 13s ease-in 0s 1
+}
+
+@keyframes spinin {
+  0% {opacity: 0;}
+  70%{opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#title{
+  font-size: 20px;
+}
+
+.pics{
+  padding-right: 50px;
+  padding-left: 50px;
+  display: inline;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  text-decoration-color: orange;
+}
+
+#background{
+  background-color: black;
+}
+
+.smallwords{
+  color: white;
+}
+
+#caption1:hover{
+  cursor: pointer;
+  color: blue;
+}
+#caption1{
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
+
+#caption2:hover{
+  cursor: pointer;
+  color: blue;
+}
+#caption2{
+  position: absolute;
+  bottom: 50px;
+  left: 570px;
+}
+#caption3:hover{
+  cursor: pointer;
+  color: blue;
+}
+#caption3{
+  position: absolute;
+  bottom: 50px;
+  right: 180px;
+}
+
+.nav{
+  display: block;
+  width:150px;
+  height: 625px;
+  background-color: #A4566E;
+}
+
+.nav{
+  position: fixed;
+  top: 10px;
+}
+
+.nav{
+  animation:myframes 2s ease-in-out 0s 1
+}
+
+@keyframes myframes {
+  0% { height: 0px;}
+  100% {height : 630px;}
+}
+
+.navbaritems{
+font-size: 25px;
+display: block;
+}
+
+.stuff{
+  display: block;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+
+#words{
+  color:white;
+  font-size: 25px;
+}
+
+.box{
+    width:500px;
+    border: 25px solid orange;
+    padding: 25px;
+    margin: 25px;
+}
+
+.box{
+  position: relative;
+  left: 250px;
+  bottom: 200px;
+  animation: fadein 2s forwards 10s 1
+}
+
+@keyframes fadein {
+  0% {opacity: 1;}
+ 100% {
+   opacity: 0;
+   left: -9999px;
+ }
+}
+
+.box2{
+    width:250px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+.box2{
+  position: relative;
+  left: 210px;
+  bottom: 520px;
+  animation: fadein2 15s forwards 0s 1
+}
+
+
+@keyframes fadein2 {
+  0%, 70% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#words2{
+  color: white;
+}
+
+#box3{
+  animation: fadeout 6s forwards 20s 1
+}
+
+@keyframes fadeout {
+  0% {opacity: 1; }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
+}
+
+.box4{
+  width:200px;
+  height: 10px;
+  border: 25px solid blue;
+  padding: 25px;
+  margin: 25px;
+}
+
+.box4{
+  position: relative;
+  left: 180px;
+  bottom: 900px;
+  animation: fadein3 30.1s forwards 0s 1
+}
+
+
+@keyframes fadein3 {
+  0%, 70% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#box5{
+  animation: fadeout2 2s forwards 25s 1
+}
+
+@keyframes fadeout2 {
+  0% {opacity: 1; }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
+}
+
+#words3{
+  color: white;
+}
